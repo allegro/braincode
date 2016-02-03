@@ -1,16 +1,265 @@
-<!doctype html>
-<html lang="pl">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-            <link rel="stylesheet" href="css/style.css">
-            <title>Braincode 2016</title>
-        </head>
-        <body>
-            <header>
-                <div class="logo"><img src="img/logoBC.svg" alt="Braincode 2016"></div>
-                <p>STAY TUNED</p>
-            </header>
-        </body>
-    </html>
+---
+layout: default
+---
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <title>BrainCode 2016 - 24h hackathon</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0"/>
+    <link rel="canonical" href="http://allegro.tech/braincode/"/>
+    <meta name="keywords" content="braincode, braincode mobi, hackathon, hackathon mobilny, mobile"/>
+    <meta name="description" content="BrainCode 2016 - 24h hackathon, który odbędzie się 18 marca jednocześnie w 4 miastach: Krakowie, Toruniu, Poznaniu oraz Warszawie"/>
+    <!--FACEBOOK-->
+    <meta property="og:title" content="BrainCode 2016 - 24h hackathon"/>
+    <meta property="og:site_name" content="BrainCode Mobi"/>
+    <meta property="og:url" content="http://allegro.tech/braincode/"/>
+    <meta property="og:description" content="BrainCode 2016 - 24h hackathon, który odbędzie się 18 marca jednocześnie w 4 miastach: Krakowie, Toruniu, Poznaniu oraz Warszawie"/>
+    <meta property="og:image" content="http://allegro.tech/braincode/img/braincode.png"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="pl_PL"/>
+    <!--TWITTER-->
+    <meta property="twitter:card" content="summary"/>
+    <meta property="twitter:title" content="BrainCode 2016 - 24h hackathon"/>
+    <meta property="twitter:description" content="BrainCode 2016 - 24h hackathon, który odbędzie się 18 marca jednocześnie w 4 miastach: Krakowie, Toruniu, Poznaniu oraz Warszawie"/>
+    <meta property="twitter:creator" content="@AllegroTechBlog"/>
+    <meta property="twitter:url" content="http://allegro.tech/braincode/"/>
+    <meta property="twitter:image" content="http://allegro.tech/braincode/img/braincode.png"/>
+    <link rel="stylesheet" href="css/brain.css"/>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHeNjvpxNkS6Pw3zDKgoKa9LIEL89mUWg"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-59754581-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body>
+<nav>
+    <div class="wrapper">
+        <ul>
+            <li><img class="brand" src="img/allegrotech.png" alt="allegro.tech"></li>
+            <li><a data-scroll href="#about">O hackathonie</a></li>
+            <li><a data-scroll href="#where">Lokalizacje</a></li>
+            <li><a data-scroll href="#people">Ludzie</a></li>
+            <li><a data-scroll href="#faq">FAQ</a></li>
+            <li><a data-scroll href="#previous">Rok 2015</a></li>
+        </ul>
+    </div>
+</nav>
+<header>
+    <div class="content">
+        <p class="logo">
+            <img src="img/logoBC.svg" alt="Braincode 2016">
+        </p>
+        <h1>24h HACKATHON</h1>
+        <p>18-19 marca 2016<br/>
+            <small>start 16:00</small>
+        </p>
+        <p>
+            <a href="http://bit.ly/mobi-2" class="button" title="Zarejestruj się na Eventbrite">zarejestruj się na Eventbrite</a>
+            <a href="#" class="button" title="Dodaj do kalendarza">dodaj do kalendarza</a>
+        </p>
+        <div class="social">
+            <ul>
+                <li>
+                    <a href="https://twitter.com/intent/tweet?url=http://allegro.tech/braincode/&amp;text=BrainCode 2016 - 24h hackathon">
+                    <span class="icon twitter">
+                    <svg height="36px" style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" ><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.567  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.674,5.657-5,6.978-8.221c0.713-1.715,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M3,4h60v60H3V4z"  class="ico" /></svg></span></a>
+                </li>
+                <li>
+                    <a class="share-button" href="https://www.facebook.com/sharer/sharer.php?u=http://allegro.tech/braincode">
+                        <span class="icon facebook">
+                            <svg height="36px" style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" ><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M3,4h60v60H3V4z" class="ico" /></svg>
+                            </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main>
+    <section id="about" class="about">
+        <div class="content">
+            <h2>O hackathonie</h2>
+            <div class="lead">
+                <p>
+                    BrainCode to nie jest zwykły hackhaton, to wydarzenie, o którym się nie zapomina!
+                    Czas tworzenia nowych projektów, poznawania nowych ludzi, miejsce gdzie możesz dać upust pokładom wyobraźni oraz możliwość wspólnego stworzenia czegoś innowacyjnego!
+                </p>
+            </div>
+            <p>
+                To jedyny w Polsce 24 godzinny hackathon odbywający się w pięciu miastach jednocześnie: w Poznaniu, Warszawie, Krakowie, Toruniu oraz Wrocławiu. Organizowany przez allegro.tech we współpracy z najlepszymi uczelniami w Polsce skierowany jest zarówno do nowicjuszy jak i do profesjonalistów.
+            </p>
+
+            <div class="gallery">
+                <img src="https://lh3.googleusercontent.com/PGmmRPJsOv66dwvzVke5Pn3go_drzhE9c5dcpEroqZ1dxKB868ARlnoFylqLBgJKhSBwkisUuie7RxWx1WVXdWI--GGsY2ERPwzCvszEdBCxAgb0Exd56VhFpNr12j2XArQRahzx">
+                <img src="https://lh3.googleusercontent.com/DDVgUjax6Q3kW54eet8TNC1Sj_vPuxOuEY9OKmQs-sfD9LpTlMLIcTmn1kcHoSf6wjQIJyLPKz0rm-w-BF_ZWdfOsVFSe9tKi-SDXOdJAP9OtRhzbfDr6LxC438KF5Jlr8zS4gFh">
+            </div>
+
+            <p>
+                Lubisz programować i realizować swoje pomysły, ale brak Ci specjalistycznej wiedzy i czasu? A może brak Ci zespołu z którym mógłbyś coś “zakodować”?
+                BrainCode 2016 to idealne miejsce dla Ciebie, by bez ograniczeń i bez względu na technologie zrealizować swoje plany! Jedynym limitem jest czas - masz dobę!
+            </p>
+            <p>
+                Aplikacje i narzędzia stworzone podczas wydarzenia będą miały szansę wypłynąć na szerokie wody dzięki dodatkowej wiedzy biznesowo- technicznej, którą allegro.tech zapewni podczas trwania hackathonu.
+            </p>
+
+
+            <div class="gallery">
+                <img src="https://lh6.googleusercontent.com/9IXL0wqee66zaA4erfchvY3QItfWpfpaD8HXNxykdv4gstJzTTJaZSHi_0vREOAoz4wwq5YDT9nRi7jXyy60PP467Vcjm2cMc7uX6dlOQnLj_YhJuVwW1Mh8xMX63KIWYGof8DDl">
+                <img src="https://lh3.googleusercontent.com/DDVgUjax6Q3kW54eet8TNC1Sj_vPuxOuEY9OKmQs-sfD9LpTlMLIcTmn1kcHoSf6wjQIJyLPKz0rm-w-BF_ZWdfOsVFSe9tKi-SDXOdJAP9OtRhzbfDr6LxC438KF5Jlr8zS4gFh">
+            </div>
+
+            <p>Na miejscu gwarantowana cała masa dobrej zabawy oraz networking z niesamowicie kreatywnymi ludzmi. Nie zabraknie również biegania z nerfgunem i objadania się pizzą.</p>
+
+            <h3>Nie możesz przegapić takiej okazji! Zbieraj pomysły i do dzieła!</h3>
+
+            <p>Spotykamy się 18 marca o godz 16:00 w wybranej przez Ciebie lokalizacji.
+                Po rejestracji uczestników i krótkim wprowadzeniu rozpoczniemy kodowanie, które zakończy się w sobotę o godzinie 17:00. Jury rozpocznie wówczas ocenę projektów. Imprezę zakończymy podsumowaniem oraz wyróżnieniem najlepszych pomysłów.
+            </p>
+
+            <h3>Nagrody? Oczywiście bedą :)</h3>
+            <p>Do udziału zapraszamy gotowe (max 4 osobowe) zespoły oraz pojedyńcze osoby, które na miejscu uformują drużyny lub dołączą do istniejących.</p>
+            <div class="gallery">
+                <img src="https://lh3.googleusercontent.com/PGmmRPJsOv66dwvzVke5Pn3go_drzhE9c5dcpEroqZ1dxKB868ARlnoFylqLBgJKhSBwkisUuie7RxWx1WVXdWI--GGsY2ERPwzCvszEdBCxAgb0Exd56VhFpNr12j2XArQRahzx">
+                <img src="https://lh3.googleusercontent.com/DDVgUjax6Q3kW54eet8TNC1Sj_vPuxOuEY9OKmQs-sfD9LpTlMLIcTmn1kcHoSf6wjQIJyLPKz0rm-w-BF_ZWdfOsVFSe9tKi-SDXOdJAP9OtRhzbfDr6LxC438KF5Jlr8zS4gFh">
+            </div>
+
+            <h3>Zapisy</h3>
+            <p>Żeby wziąć udział w wydarzeniu należy zakupić bilet. Wszystkie środki, które uda się nam zebrać zostaną przeznaczone na rzecz <a href="http://www.mammarzenie.org/">Fundacji Mam Marzenie.</a></p>
+            <p><strong>WAŻNE:</strong>: Wszystkim, którzy zapiszą się do 26 lutego włącznie gwarantujemy koszulki w wybranych rozmiarach!</p>
+            <p><a href="http://allegro.tech/braincode/" class="button">Pobierz regulamin hackathonu</a></p>
+
+        </div>
+    </section>
+    <section id="faq" class="faq">
+        <div class="content">
+            <h3>FAQ</h3>
+            <ol>
+                <li>Czy muszę przyjść z pomysłem na to co chcę stworzyć?</li>
+                <p>Pewnie, że nie musisz. Daj się zainspirować przez innych uczestników lub skorzystaj z naszej bazy inspiracji, które przygotowaliśmy dla Ciebie.</p>
+                <li>Jakie są kryteria oceny projektów?</li>
+                <p>Projekty będą oceniane na podstawie następujących kryteriów: innowacyjność, uzyteczność, technologia, potencjał na wykorzystanie biznesowe. Dokładnie możesz doczytać w regulaminie.</p>
+                <li>Czy będzie jedzenie?</li>
+                <p>TAK</p>
+                <li>Czy będą nagrody?</li>
+                <p>TAK</p>
+                <li>Co muszę ze sobą zabrać?</li>
+                <p>Wszystkie urządzenia jakie potrzebujesz do pracy, duże pokłady energii i dobrego humoru.</p>
+                <li>Kto bedzie oceniał projekty?</li>
+                <p>Projekty będą oceniane przez powołane na tę okazje jury składajace się z: przedstawiciela uczelni, przedstawiciela allegro.tech, przedstawiciela firmy zewnętrznej oraz organizatora.</p>
+                <li>Czy mogę zacząć budować projekt przed BrainCode’m?</li>
+                <p>Na hackathonie będziemy oceniać tylko to co wykonasz na miejscu.</p>
+                <li>Nad czym mogę pracować?</li>
+                <p>Tu pole do popisu ma Twoja wyobraźnia. Możesz stworzyć wszystko co przyjdzie Ci do głowy, wykorzystując przy tym dowolną technologię!</p>
+            </ol>
+
+        </div>
+    </section>
+    <section id="where" class="where">
+        <div class="content">
+            <h2>Nasze lokalizacje</h2>
+            <p id="cities" class="cities">
+                Dołącz do nas w <span data-city="poznan">Poznaniu</span>, <span data-city="warszawa">Warszawie</span>, <span data-city="krakow">Krakowie</span>, <span data-city="torun">Toruniu</span>
+                i <span data-city="wroclaw">Wrocławiu</span>!
+            </p>
+            <div id="map-canvas"></div>
+        </div>
+    </section>
+    <section id="people" class="people">
+        <div class="content">
+            <h2>Jury, mentorzy, organizatorzy</h2>
+            <ul class="city-list" id="city-list">
+                <li><input type="radio" name="city" value="Poznań" id="p1"><label for="p1">Poznań</label></li>
+                <li><input type="radio" name="city" value="Kraków" id="p3"><label for="p3">Kraków</label></li>
+                <li><input type="radio" name="city" value="Toruń" id="p4"><label for="p4">Toruń</label></li>
+                <li><input type="radio" name="city" value="Wrocław" id="p5"><label for="p5">Wrocław</label></li>
+                <li><input type="radio" name="city" value="Warszawa" id="p2"><label for="p2">Warszawa</label></li>
+                <li><input type="radio" name="city" value="" id="p6" checked="checked"><label for="p6">Wszystkie miasta</label></li>
+            </ul>
+            <div class="people-list-container">
+                <ul class="people-list">
+                    {%assign authors = site.data.members | sort%}
+                    {% for author in authors%}
+                    {%assign authorKey = author[0]%}
+                    {%assign authorData = author[1]%}
+
+                    {% if authorData.role[0] %}
+                    {%assign roleClass = authorData.role[0]%}
+                    {% else %}
+                    {%assign roleClass = authorData.role%}
+                    {% endif %}
+
+                    <li class="people-list-item {{roleClass | downcase}}" data-meta="{{authorData.role}},{{authorData.city}}">
+                        <div class="people-foto"><img src="/img/authors/{{authorKey}}.jpg" alt="{{authorKey}}"/>
+                            <div class="people-role"><h3>{{authorData.name}}</h3> {{authorData.role | join:', ' | downcase}}</div>
+                        </div>
+                        <div class="people-content">
+                            {%if authorData.bio %}
+                            {{authorData.bio | markdownify | truncatewords : 150}}
+                            {% endif %}
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="support" class="support">
+        <div class="content">
+            <h2>Wspierają nas</h2>
+            <ul class="support-list">
+                <li><a href="http://coronalabs.com/"><img src="/img/coronalabs-logo.png" alt="corona labs"/></a></li>
+                <li><a href="https://www.hubraum.com"><img src="/img/hubraum-logo.png" alt="hub:raum"/></a></li>
+                <li><a href="http://www.softnauts.com"><img src="/img/softnauts.png" alt="softnauts"/></a></li>
+                <li><a href="http://www.inqbator.pl/"><img src="/img/inqbator.png" alt="Inqubator"/></a></li>
+                <li><a href="http://www.smartspace.io"><img src="/img/exea.png" alt="exea - smart space"/></a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="partners" class="partners">
+        <div class="content">
+            <h2>Partnerzy</h2>
+            <ul class="partners-list">
+                <li class="p1"><a href="http://www.kt.agh.edu.pl/">Katedra Telekomunikacji AGH</a></li>
+                <li class="p2"><a href="https://amu.edu.pl/">Uniwersytet im. Adama Mickiewicza w Poznaniu</a></li>
+                <li class="p3"><a href="http://www.mimuw.edu.pl/">Wydział Matematyki, Informatyki i Mechaniki Uniwersytetu Warszawskiego</a></li>
+                <li class="p6"><a href="http://www.umk.pl/">Uniwersytet Mikołaja Kopernika w Toruniu</a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="previous" class="previous">
+        <div class="content">
+            <h2>BrainCode Mobi 2015</h2>
+            <p>Zapraszamy do obejrzenia <a href="https://plus.google.com/photos/110325364206704662235/albums/6132757241291431409?authkey=CLmbjbyQuLr91QE">galerii zdjęć</a> oraz krótkiego filmu podsumowującego wydarzenie. </p>
+            <p>
+                <video controls>
+                    <source src="media/braincode2015-v2.mp4" type="video/mp4">
+                </video>
+            </p>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="content">
+        <p>allegro.tech © 2016</p>
+    </div>
+</footer>
+</div>
+<script src="js/smooth-scroll.min.js"></script>
+<script src="js/brain.js"></script>
+</body>
+</html>
