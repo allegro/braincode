@@ -477,6 +477,31 @@ footer .content {
     color: #090;
 }
 
+.faq dl {
+  counter-reset: def;
+}
+
+.faq dd,
+.faq dt {
+  margin: 1rem 0;
+  padding: 0
+}
+
+.faq dt {
+  font-weight: 900
+}
+
+.faq dd{
+  margin: 1rem 2rem 0;
+}
+
+.faq dt::before{
+    counter-increment: def;
+    content: counters(def, ".") ". ";
+}
+
+
+
 /*== navigation */
 
 nav {
