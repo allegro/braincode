@@ -10,12 +10,13 @@ html {
 
 html, body {
     margin: 0;
-    padding: 0
+    padding: 0;
+    background: #345893 linear-gradient(#209b84, #345893) repeat-x fixed -50% 0;
 }
 
 body {
+    background: url("../img/dots.png");
     font: 2rem/1.5 "Open Sans", arial, sans-serif;
-    background: #345893 linear-gradient(#209b84, #345893) repeat-x fixed -50% 0;
     color: #fff;
 }
 
@@ -66,7 +67,6 @@ header {
     text-align: center;
     line-height: 1.2;
     padding-bottom: 2rem;
-    background: url("../img/dots.png");
 }
 
 header img {
@@ -148,7 +148,7 @@ section p {
 }
 
 .lead p {
-    font-weight: 400;
+    font-weight: bolder;
     text-shadow: 1px 1px 0 navy;
 }
 
@@ -182,73 +182,24 @@ section p {
 }
 
 .partners {
-    background: rgba(255, 255, 255, 1);
+    background: #fff;
     color: #333;
 }
 
-.partners img {
-    display: block;
-    vertical-align: middle;
-    max-width: 90%;
-    margin: 0 auto;
-}
-
-.partners ul + a > img {
-    margin: 1rem auto;
-}
-
-.partners ul + a > img:hover {
-    opacity: 0.8;
-}
-
-.partners-list, .partners-list li {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
 .partners-list {
-    display: block;
-    margin: 0 auto;
-    height: 105px;
-    width: 486px;
-    max-width: 90%;
-    background: url('../img/partners.png') no-repeat;
-    font-size: 0;
-    background-size: 100%;
+    text-align: center;
+    padding: 0;
 }
 
+.partners-list,
 .partners-list li {
     display: inline-block;
-    height: 100%;
-    width: 19%;
-    text-indent: -9999px;
+    vertical-align: top;
 }
 
-.partners-list .p2 {
-    width: 17%;
-}
-
-.partners-list .p3 {
-    width: 32%;
-}
-
-.partners-list .p4 {
-    width: 15%;
-}
-
-.partners-list .p5 {
-    width: 17%;
-}
-
-.partners-list a {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.partners-list a:hover {
-    background: rgba(255, 255, 255, 0.2);
+.partners img {
+    max-width: 80%;
+    margin: 10px;
 }
 
 .support {
@@ -478,29 +429,31 @@ footer .content {
 }
 
 .faq dl {
-  counter-reset: def;
+    counter-reset: def;
 }
 
 .faq dd,
 .faq dt {
-  margin: 1rem 0;
-  padding: 0
+    margin: 1rem 0;
+    padding: 0
 }
 
 .faq dt {
-  font-weight: 900
+    font-weight: 900
 }
 
-.faq dd{
-  margin: 1rem 2rem 0;
+.faq dd {
+    margin: 1rem 2rem 0;
 }
 
-.faq dt::before{
+.faq dt::before {
     counter-increment: def;
     content: counters(def, ".") ". ";
 }
 
-
+.inspirations {
+    background: rgba(0, 0, 0, 0.5)
+}
 
 /*== navigation */
 
@@ -532,9 +485,10 @@ nav li {
 }
 
 nav li {
-  display: inline-block;
-  margin: 0 5px 5px 0;
+    display: inline-block;
+    margin: 0 5px 5px 0;
 }
+
 nav ul {
     padding: 0 1rem;
     margin: 1rem 0;
@@ -547,7 +501,7 @@ nav ul {
     }
 }
 
-nav  li a {
+nav li a {
     color: #fff;
     text-decoration: none;
     font-size: 80%;
