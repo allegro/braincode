@@ -137,6 +137,10 @@ section p {
     color: #eee;
 }
 
+.gallery {
+    text-align: center;
+}
+
 .gallery img {
     display: inline-block;
     max-width: 445px;
