@@ -82,7 +82,6 @@ header h1, header p {
 
 header h1 {
     font-size: 5rem;
-    text-shadow: -1px -1px 0 #bbb, -2px -2px 0 #999;
 }
 
 header p {
