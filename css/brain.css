@@ -197,7 +197,7 @@ section p {
 .partners-list,
 .partners-list li {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .partners img {
@@ -218,7 +218,7 @@ section p {
 .support-list,
 .support-list li {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .support img {
