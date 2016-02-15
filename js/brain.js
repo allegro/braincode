@@ -43,10 +43,10 @@
                 start: "18.03.2016 16:00"
             }, {
                 city: "krakow",
-                position: new google.maps.LatLng(50.061985, 19.943115),
-                title: "BrainCode 2016 Kraków",
-                place: "TBD",
-                street: "NOT YET",
+                position: new google.maps.LatLng(50.068041, 19.912556),
+                title: "BrainCode 2016 @ Kraków",
+                place: "Katedra Informatyki AGH",
+                street: "Kawiory 21",
                 start: "18.03.2016 16:00"
             }];
             var cities = citiesInfo.map(function(city) {
