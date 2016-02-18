@@ -1,0 +1,485 @@
+html {
+    font-size: 50%;
+}
+@media all and (min-width:990px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+html, body {
+    margin: 0;
+    padding: 0
+}
+body {
+    font: 2rem/1.5"alwyn-new-web", arial, sans-serif;
+    background: #82629a url('../img/bg.jpg') repeat-x -50% 0;
+    background-attachment: fixed;
+    color: #fff;
+}
+header {
+    text-align: center;
+    line-height: 1.2;
+    padding-bottom: 2rem;
+}
+header img {
+    width: 80%;
+    margin: 1rem 0;
+    max-width: 400px;
+}
+header h1, header p {
+    margin: 2rem 0;
+    padding: 0
+}
+header h1 {
+    font-size: 5rem;
+    text-shadow: -1px -1px 0 #bbb, -2px -2px 0 #999;
+}
+header p {
+    font-size: 2rem;
+}
+.content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem 1rem 2rem;
+}
+.button {
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 1rem;
+    margin: 1rem 0;
+    text-decoration: none;
+    color: #fff;
+    background: rgba(5, 5, 5, 0.28);
+    border-radius: 5px;
+    transition: 0.6s;
+}
+.button:hover {
+    background: rgba(5, 5, 5, 0.58);
+}
+iframe {
+    width: 100%;
+    height: 315px;
+    display: block;
+    margin: 0 auto;
+    height: 450px;
+}
+h2 {
+    font-size: 3rem;
+}
+section {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+section p {
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+.about {
+    box-shadow: -1px 0 10px #111;
+    background: rgba(0, 0, 0, 0.5);
+    color: #eee;
+}
+.gallery img {
+    display: inline-block;
+    max-width: 400px;
+    width: 94%;
+    margin: 1rem 1rem 1rem 0;
+    border-radius: 1rem;
+    border: 1rem solid rgba(0, 0, 0, 0.27);
+}
+.lead p {
+    font-weight: 400;
+    text-shadow: 1px 1px 0 navy;
+}
+.where {
+    background: #fff;
+    color: #333;
+}
+.previous {
+    background: rgba(0, 0, 0, 0.5);
+}
+#map-canvas {
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #ddd;
+}
+.cities span {
+    display: inline-block;
+    background: #eee;
+    cursor: pointer;
+    padding: 0 5px;
+    margin: 1px 0;
+    border-radius: 3px;
+}
+.cities span:hover {
+    background: #ddd
+}
+.partners {
+    background: rgba(255, 255, 255, 1);
+    color: #333;
+}
+.partners img {
+    display: block;
+    vertical-align: middle;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.partners ul + a > img {
+    margin: 1rem auto;
+}
+.partners ul + a > img:hover {
+    opacity: 0.8;
+}
+.partners-list, .partners-list li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.partners-list {
+    display: block;
+    margin: 0 auto;
+    height: 105px;
+    width: 486px;
+    max-width: 90%;
+    background: url('../img/partners.png') no-repeat;
+    font-size: 0;
+    background-size: 100%;
+}
+.partners-list li {
+    display: inline-block;
+    height: 100%;
+    width: 19%;
+    text-indent: -9999px;
+}
+.partners-list .p2 {
+    width: 17%;
+}
+.partners-list .p3 {
+    width: 32%;
+}
+.partners-list .p4 {
+    width: 15%;
+}
+.partners-list .p5 {
+    width: 17%;
+}
+.partners-list a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.partners-list a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.support {
+    background: #eee;
+    color: #333;
+}
+
+.support-list{
+    text-align: center;
+    padding: 0;
+}
+
+.support-list,
+.support-list li{
+    display: inline-block;
+    vertical-align: top;
+}
+.support img{
+    max-width: 80%;
+    margin: 10px;
+}
+
+footer {
+    /*background: ;*/
+    /*color: #444;*/
+}
+footer .content {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+/* social */
+.social {
+    /* text-align: right;
+    */
+    display: inline-block;
+}
+.social ul, .social h4 {
+    list-style: none;
+    display: inline-block;
+    font-size: 90%;
+}
+.social ul {
+    margin-left: 10px;
+    padding: 0
+}
+.social li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+.ico {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #eee;
+}
+.ico:hover {
+    fill: #fff;
+}
+
+.people {
+    background: #fff;
+}
+
+.people h2{
+    color: #333;
+}
+
+
+.people-list-container {
+    overflow: hidden;
+}
+.people-list, .people-list-item {
+    padding: 0;
+    margin: 0;
+}
+.people-list {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    overflow: hidden;
+    transition: 1s;
+}
+.people-list-item {
+    box-sizing: border-box;
+    -webkit-flex: 0 1 175px;
+    flex: 0 1 175px;
+    padding: 15px;
+    margin: 7px;
+    color: #333;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #999;
+}
+
+@media all and (max-width:400px) {
+    .people-list-item{
+        -webkit-flex: 1 1 130px;
+        flex: 1 1 130px;
+    }
+}
+
+
+.people-list-item img {
+    max-width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+}
+.people-list-item h3 {
+    font-size: 15px;
+    margin: -2px 0 -5px;
+}
+.people-list-item p {
+    font: 13px/1.3 arial, sans-serif;
+}
+.people-foto {
+    position: relative;
+    margin: -15px;
+}
+
+.people-content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    -webkit-transform: translate3d(0, -1100px, 3em);
+    transform: translate3d(0, -1100px, 3em);
+    transition: 0.6s;
+}
+
+
+.people-list-item:hover .people-content{
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    overflow: auto;
+}
+
+
+.hide {
+    -webkit-transform: translate3d(0, -3000px, 3em);
+    transform: translate3d(0, -3000px, 3em);
+}
+.remove {
+    display: none;
+}
+.people-role {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: inline-block;
+    background: #aaa;
+    padding: 3px;
+    font-size: 1.2rem;
+    color: #64212d;
+    color: #fff;
+}
+
+
+
+.jury .people-role {
+    background: #000
+}
+.prelegent .people-role {
+    background: #64212d;
+}
+.mentor .people-role {
+    background: #f05c22;
+}
+.city-list {
+    padding: 0
+}
+.city-list li {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 5px 0;
+    display: inline-block;
+    position: relative;
+    font-size: 1.4rem;
+}
+.city-list input {
+    position: absolute;
+    left: -9999px;
+}
+.city-list input + label {
+    background: #eee;
+    color: #333;
+    border-radius: 5px;
+    padding: 3px 7px;
+    cursor: pointer;
+}
+.city-list input:checked + label {
+    background: #920;
+    color: #fff;
+}
+.city-list input:checked + label:before {
+    content: '✔ ';
+    color: #090;
+}
+
+
+/*== navigation */
+
+
+/*nav{
+    width: 100%;
+    display: block;
+    background: rgba(0,0,0,0.88);
+    padding: 5px;
+    position: fixed;
+}*/
+
+nav ul,
+nav li{
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+nav ul{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 960px;
+    margin: 1rem auto;
+    padding: 0 1rem;
+}
+
+nav li{
+    -webkit-flex: 1;
+    flex: 1 1 100px;
+    margin: 0 5px 5px 0;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 80%;
+    padding: 5px;
+    display: block;
+    background: rgba(0,0,0,0.48);
+    border-radius: 5px;
+    transition: 1s;
+    text-align: center;
+}
+
+nav a:hover{
+    background: #333
+}
+
+
+.winners{
+    overflow: hidden;
+    padding: 0 0 2rem 0;
+    background: rgba(3,3,3,0.45);
+}
+
+.winners img{
+    display: block;
+    float: none;
+    width: 360px;
+    max-width: 100%;
+    margin: 0 3rem 0.4rem 0;
+    border: 0.5rem solid #fff;
+}
+
+
+@media all and (min-width:479px) {
+    .winners img {
+        float: left       
+    }
+}
+
+
+.winners ul{
+    padding: 2rem auto;
+}
+.winners hr,
+.winners h3{
+    clear: both;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.winners h3{
+    text-transform: uppercase;
+}
+
+.winners hr{
+    visibility: hidden;
+}
+
+
+a{
+    color: inherit;
+    text-decoration: underline;
+}
+video{
+    max-width: 100%;
+    width: 100%;
+}
