@@ -27,10 +27,13 @@ body {
     background: #fff;
     border-radius: 50%;
     text-align: center;
+    display: -webkit-flex;
     display: flex;
     min-width: 200px;
     min-height: 200px;
+    -webkit-align-items: center;
     align-items: center;
+    -webkit-justify-content: center;
     justify-content: center;
     position: relative;
 }
