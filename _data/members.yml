@@ -37,7 +37,7 @@ marcin.radoszewski:
 michal.banasiak:
     name: Michał Banasiak
     bio: Programista.
-    role: Mentor, Jury
+    role: Organizator
     city: Wrocław
 
 pawel.lopusinski:
@@ -141,3 +141,15 @@ katarzyna.kolakowska:
     bio: Kasia jest analitykiem inwestycyjnym. Dołączyła do SpeedUp Group w 2014 roku i od tego czasu zajmuje się analizą i selekcją przedsięwzięć, które znajdują się w obszarze zainteresowania inwestycyjnego funduszu. Wspiera budowanie wartości spółek portfelowych, szczególnie tych znajdujących się w fazie seed. Kasia koordynowała drugą edycję pre-akceleratora Huge Thing. Od kilku lat aktywnie wspiera poznańską społeczność startupową.
     role: Mentor
     city: Poznań
+
+lukasz.kuczborski:
+    name: Łukasz Kuczborski
+    bio: iOS Developer w Grupie Allegro. Założyciel i współorganizator Swift Warsaw. Gdy nie koduje prawdopodobnie robi ludziom zdjęcia.
+    role: Mentor
+    city: Warszawa
+
+zbyszko.papierski:
+    name: Zbyszko Papierski
+    bio: Architekt rozwiązań w Grupie Allegro, z firmą związany od 4 lat. Współorganizator toruńskiego JUGa i zapalony gracz.
+    role: Organizator
+    city: Toruń
