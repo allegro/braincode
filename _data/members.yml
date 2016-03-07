@@ -165,3 +165,45 @@ piotr.orlowski:
     bio: Już w ubiegłym stuleciu uczestniczył w budowie polskiego Internetu pracując w Gazecie Wyborczej Online, od początku współtworzył też portal Gazeta.pl. W 2004 roku związał się z branżą e-commerce i zmieniał technologicznie merlin.pl i empik.com a aktualnie zmienia Allegro. Lubi rozwiązania proste i dające większe możliwości niż pierwotnie planowane.
     role: Jury
     city: Warszawa
+
+piotr.olesinski:
+    name: Piotr Olesiński
+    bio: Menedżer ds. rozwoju w Bivrost – VR Video Technologies, po godzinach seryjny przedsiębiorca i doradca, organizator Google Developer Group, kajakarz
+    role: Mentor
+    city: Warszawa
+
+mateusz.wilczynski:
+    name: Mateusz Wilczyński
+    bio: W Grupie Allegro odpowiedzialny za rozwój aplikacji Allegro na system Android. Majac do wyboru kodzenie czy kobiety - zawsze wybieram namiętną randkę z SDK. Jak już mnie oderwą od kodu - to stepuję po stepach Kaukazu, szusuję na nartach i szukam żony.
+    role: Mentor
+    city: Poznań
+
+aleksander.grzyb:
+    name: Aleksander Grzyb
+    bio: W Allegro zajmuje się aplikacją iOS. Ma również doświadczenie w wizji komputerowej (OpenCV). Lubi pisać gemy w Ruby i skrypty, które robią wszystko za niego. W tematach nietechnicznych może opowiedzieć o doświadczeniach z dwóch erasmusów oraz stażu w USA
+    role: Mentor
+    city: Poznań
+
+kamil.pyc:
+    name: Kamil Pyć
+    bio: W Allegro zajmuje się współtworzeniem aplikacji na iOS. W wolnym czasie próbuje swoich sił w hackatonach oraz zrobić coś użytecznego ze swoim Raspberry Pi.
+    role: Mentor
+    city: Wrocław
+
+remigiusz.herba:
+    name: Remigiusz Herba
+    bio: Programista aplikacji iOS.
+    role: Mentor
+    city: Wrocław
+
+krzysztof.podruczny:
+    name: Krzysztof Podruczny
+    bio: Projektant UX aplikacji mobilnych Allegro.
+    role: Mentor
+    city: Wrocław
+
+pawel.ustaborowicz:
+    name: Paweł Ustaborowicz
+    bio: Paweł is a mobile software professional with 10+ years of experience as a Developer, Test Engineer, Project Manager and Product Owner of mobile products for various mobile platforms (including iOS and Android). True believer and evangelist of mobile technologies, convinced that mobile is the future of personal computing.
+    role: Mentor
+    city: Wrocław
