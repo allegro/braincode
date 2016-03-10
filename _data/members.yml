@@ -213,3 +213,87 @@ tomasz.szczerba:
     bio: Full stack developer  piszący głównie w C# i JavaScript. W wolnym czasie zajmuje się Raspberry Pi.
     role: Mentor
     city: Warszawa
+
+marcin.kuzel:
+    name: Marcin Kużel
+    bio: Developer, geek i miłośnik zamiany kawy w kod źródłowy. W Allegro od ponad 3 lat. Maczał palce w wielu obszarach i technologiach, żeby w końcu skoncentrować się na języku Java. Obecnie zajmuje się projektowaniem i developmentem nowego procesu logowania do Allegro. Poza pracą wciąż próbuje zrealizować jeden z wielu powstałych w jego głowie pomysłów na produkcję gry, która pobije sukces Wiedźmina 3.
+    role: Mentor
+    city: Wrocław
+
+jedrzej.krysztofiak:
+    name: Jędrzej Krysztofiak
+    bio: Tester, początkujący developer i fanatyk bezpieczeństwa aplikacji webowych oraz mobilnych. Wiedzę na ten temat wykorzystuje i uzupełnia w Allegro od 3 lat. Hobbystycznie miłośnik programów bug bounty, fantastycznej książki i kolarstwa.
+    role: Mentor
+    city: Wrocław
+
+miroslaw.golda:
+    name: Mirosław Gołda
+    bio: Starszy inżynier oprogramowania. Od blisko 5 lat związany z Grupą Allegro, gdzie pracuje głównie po stronie backendu, tworząc rozmaite serwisy w Javie i Springu. Lubi też pokodować w JavaScripcie/ES6 i Angular.js, a w wolnych chwilach pograć w tryktraka (backgammona) oraz gry na Kinecta.
+    role: Mentor, Organizator
+    city: Toruń
+
+kamil.piska:
+    name: Kamil Piska
+    bio: Inżynier oprogramowania kładący nacisk z jednej strony na czystość i jakość kodu oraz architektury, z drugiej na skalowalność i fault tolerance tworzonych rozwiązań. Skupiony wokół szeroko rozumianych języków JVM.
+    role: Mentor
+    city: Warszawa
+
+grzegorz.andrejczyn:
+    name: Grzegorz Andrejczyn
+    bio: Inżynier oprogramowania z wieloletnim doświadczeniem. Z Allegro związany od czterech lat. Tworzył systemy odpowiedzialne za zabezpieczenia antyfraudowe oraz wspomagające procesy zakupowe. Obecnie stara się zrozumieć zachowanie użytkowników, wspomagając się przy tym narzędziami z rodziny big data.
+    role: Mentor
+    city: Kraków
+
+wojciech.lizakowski:
+    name: Wojciech Lizakowski
+    bio: Tester oprogramowania z pięcioletnim doświadczeniem. Zainteresowany testami eskploracyjnymi oraz testami bezpieczeństwa. Ostatnimi czasy początkujący programista. Prywatnie miłosnik dobrych książek i muzyki.
+    role: Mentor
+    city: Wrocław
+
+pawel.czubachowski:
+    name: Paweł Czubachowski
+    bio: Software engineer ze smykałką biznesową. W allegro od 4 lat. Po pracy przed komputerem zasiada w szarym kapeluszu. Fan motoryzacji, jeździ szybkim autem i głośnym motocyklem.
+    role: Mentor, Organizator
+    city: Toruń
+
+dorota.leszczynska:
+    name: Dorota Leszczyńska
+    bio: Webdeveloper. Od prawie trzech lat dba o frontend serwisów Grupy Allegro. Pisze głównie w Angularze, od niedawna zagłębia się w tajniki Reacta i ES6. Uważa, że każda zmiana powinna być przyjazna dla użytkownika i wyglądać dobrze w każdej rozdzielczości.     Po pracy uwalnia endorfiny na treningach zumby.
+    role: Mentor, Organizator
+    city: Toruń
+
+szymon.bilinski:
+    name: Szymon Biliński
+    bio: Product Owner, człowiek produktu. Pracuje z ludźmi i dla ludzi. Lubi, gdy z małej zmiany wychodzi duża rzecz. Aktywny uczestnik Internetów. Poza pracą znajdziesz mnie w parku, lesie, górach, nad morzem, z rodziną, wśród zieleni. Miłośnik natury - największego produktu na świecie.
+    role: Mentor
+    city: Toruń
+
+michal.matlosz:
+    name: Michał Matłosz
+    bio: Michał is self-motivated software engineer with work experience in many programming languages and frameworks. He enjoys taking on new challenges, and constantly strives to learn new skills.
+    role: Mentor, Organizator
+    city: Toruń
+
+mikolaj.lenart:
+    name: Mikołaj Lenart
+    bio: Developer aplikacji na platformę Android z 4 letnim doświadczeniem. Przykłada dużą uwagę aby być na bierząco z nowościami w świecie mobilnym.
+    role: Mentor
+    city: Warszawa
+
+bartlomiej.alberski:
+    name: Bartłomiej Alberski
+    bio: Absolwent Informatyki na Wydziale Informatyki, Elektroniki i Telekomunikacji Akademii Górniczo-Hutniczej w Krakowie. W trakcie kariery zawodowej odbywał praktyki/pracował m.in w CERNie, Swisscomie, Ocado. Wytrwale pracuje nad rozwiązywaniem „problemów”, przy okazji ucząc się nowych rzeczy. Obecnie pracuje w Grupie Allegro zdobywając doświadczenie w rozwiązaywaniu problemów z zakresu systemów rozproszonych.
+    role: Mentor
+    city: Kraków
+
+dariusz.jedrzejczyk:
+    name: Dariusz Jędrzejczyk
+    bio: Pasjonat programowania usług tworzących platformę do budowania skalowalnych rozwiązań. Od 7 lat zmierza w kierunku backendu. Zetknął się z prawie wszystkimi platformami mobilnymi, konsultował rozwiązania Big Data w bankach, ale finalnie największą przyjemność sprawia mu pisanie czystego kodu w Javie i rozwiązywanie rzeczywistych problemów - stroniąc od używania technologii dla hecy.
+    role: Mentor
+    city: Kraków
+
+marcin.stepnowski:
+    name: Marcin Stepnowski
+    bio: Programista iOS, który jeszcze się nie nauczył, że niektórych rzeczy po prostu się nie da :)
+    role: Mentor
+    city: Warszawa
