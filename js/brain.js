@@ -132,7 +132,7 @@
             peopleList.classList.add('hide');
             peopleNode.forEach(function(item, index, arr) {
                 var itemMeta = item.getAttribute('data-meta').split(',');
-                if (itemMeta[1] === city) {
+                if (itemMeta[itemMeta.length - 1] === city) {
                     item.classList.remove('remove');
                 } else {
                     item.classList.add('remove');
