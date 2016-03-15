@@ -327,3 +327,18 @@ krzysztof.zielinski:
     bio: Prof. dr hab. inż. Krzysztof Zieliński jest kierownikiem Katedry Informatyki AGH na Wydziale EAIiE. Jego zainteresowania naukowe  dotyczą rozproszonych systemów komputerowych, sieci komputerowych i architektur oprogramowania tych systemów ze szczególnym uwzględnieniem architektur udostępniania serwisów sieciowych oraz adaptowalnych systemów oprogramowania wykorzystujących informacje semantyczną. Bezpośrednio kieruje Grupą Systemów Rozproszonych. Jest autorem ponad 150 publikacji naukowych. Aktywnie współpracuje z szeregiem instytucji naukowych na świecie.
     role: Jury
     city: Kraków
+leszek.krol:
+    name: Leszek Król
+    bio: Pracuje w przemyśle związanym z grami komputerowymi od 2003 roku. Pierwszą grę stworzył już w wieku 10 lat. Od 4 lat prowadzi regularne szkolenia dla studentów i młodzieży z zakresu tworzenia gier w silniku Unity3D. Założyciel studia developerskiego "University of Games", zajmującego się tworzeniem wysokiej jakości gier oraz aplikacji mobilnych. Zajmuje się również kompleksowym doradztwem w zakresie realizacji aplikacji dla polskich oraz zagranicznych klientów m.in McDonalds, Bakoma, Trefl. Na swoim koncie ma już ponad 60 zrealizowanych tytułów.
+    role: Jury
+    city: Toruń
+marcin.zlotowicz:
+    name: Marcin Złotowicz
+    bio: Absolwent Wydziału Informatyki Uniwersytetu Wrocławskiego, od 9 lat pracuje w branży IT. W tym czasie zajmował stanowiska analityka IT, testera, lidera zespołu testów czy kierownika projektów, co pozwoliło mu zebrać doświadczenia z różnych etapów cyklu życia oprogramowania. Od wielu lat związany z Ceneo.pl, gdzie aktualnie jako Scrum Master i kierownik zespołów developerskich prowadzi zwinne projekty z dziedziny e-commerce dotyczące aplikacji mobilnych oraz internetowych.
+    role: Jury
+    city: Wrocław
+inga.apiecionek:
+    name: Inga Apiecionek
+    bio: Product Owner aplikacji mobilnych w Allegro. Programistka, która przeszła na stronę klienta i biznesu.
+    role: Mentor, Jury
+    city: Wrocław
