@@ -228,6 +228,7 @@ section p {
 .support img {
     max-width: 80%;
     margin: 10px;
+    max-height: 150px;
 }
 
 footer {
