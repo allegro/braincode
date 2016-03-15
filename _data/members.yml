@@ -322,3 +322,8 @@ mateusz.stepniak:
     bio: Pasjonat nowych technologii - świetnie się czuje zarówno w rozwiązaniach back-end (mikro-usługi w technologiach java i node.js) jak i mobilnych (android) oraz pomiędzy tymi dwoma światami (REST API). W Allegro od 2010 roku czynnie wspiera rozwiązania mobilne. Aktywnie wspiera open source i technologiczne wydarzenia dzieląc się swoją wiedzą i doświadczeniem.
     role: Mentor
     city: Poznań
+krzysztof.zielinski:
+    name: Krzysztof Zieliński
+    bio: Prof. dr hab. inż. Krzysztof Zieliński jest kierownikiem Katedry Informatyki AGH na Wydziale EAIiE. Jego zainteresowania naukowe  dotyczą rozproszonych systemów komputerowych, sieci komputerowych i architektur oprogramowania tych systemów ze szczególnym uwzględnieniem architektur udostępniania serwisów sieciowych oraz adaptowalnych systemów oprogramowania wykorzystujących informacje semantyczną. Bezpośrednio kieruje Grupą Systemów Rozproszonych. Jest autorem ponad 150 publikacji naukowych. Aktywnie współpracuje z szeregiem instytucji naukowych na świecie.
+    role: Jury
+    city: Kraków
