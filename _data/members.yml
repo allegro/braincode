@@ -112,9 +112,9 @@ adam.tomczyk:
     role: Mentor
     city: Poznań
 
-michal.brys:
-    name: Michał Bryś
-    bio: Michał związany jest z Internetem od 2009 roku. Jest ekspertem analityki internetowej, w szególności dla serwisów e-commerce. W swojej pracy wykorzystuje m.in. R, Google Analytics oraz narzędzia do przetwarzania dużych danych (Hadoop, Elastic Search). Pasjonuje się analizą danych i odkrywaniem ukrytej w nich wiedzy. Ukończył Akademię Górniczo-Hutniczą oraz Uniwersytet Ekonomiczny w Krakowie. Swoją wiedzą dzieli się na konferencjach i szkoleniach branżowych.
+bartlomiej.weglarz:
+    name: Bartłomiej Węglarz
+    bio: "Po ok 15 latach pracy spędzonych w branży IT pracując przy systemach typu e-commerce, cloud, big data przyznaję, że największą frajdę sprawia mi praca nad odpornymi na awarie, wysoko dostępnymi systemami rozproszonymi. Nie zawsze gonię za nowinkami technologicznymi, ale staram się trzymać zasady, którą wikipedia tłumaczy następująco: nie komplikuj, głuptasku"
     role: Mentor
     city: Kraków
 
