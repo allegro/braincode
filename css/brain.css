@@ -1,6 +1,5 @@
 html {
     font-size: 50%;
-    height: 100%;
 }
 
 @media all and (min-width: 990px) {
@@ -12,18 +11,13 @@ html {
 html, body {
     margin: 0;
     padding: 0;
-    background: #f37920 linear-gradient(#ffc10e, #f37920) repeat-x fixed -50% 0;
-    
+    background: #345893 linear-gradient(#209b84, #345893) repeat-x fixed -50% 0;
 }
 
 body {
-    background: url("../img/dots2017.png");
+    background: url("../img/dots.png");
     font: 2rem/1.5 "Open Sans", arial, sans-serif;
-    color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100%;
+    color: #fff;
 }
 
 .logo {
@@ -80,7 +74,7 @@ header {
 
 header img {
     width: 80%;
-    margin: 0;
+    margin: 1rem 0;
     max-width: 400px;
 }
 
@@ -94,7 +88,7 @@ header h1 {
 }
 
 header p {
-    font-size: 3.6rem;
+    font-size: 2rem;
 }
 
 .content {
