@@ -1,0 +1,155 @@
+michal.tydryszewski:
+    name: Michał Tydryszewski 
+    bio: Michał jest starszym inżynierem oprogramowania w Allegro z prawie pięcioletnim doświadczeniem zawodowym. Wierzy, że bycie pragmatycznym i myślenie w czasie działania jest kluczem do wszelkiego sukcesu. Dla niego komputery i programowanie powinny przede wszystkim ułatwiać życie.
+    role: Mentor
+    city: Toruń
+
+marcin.radoszewski:
+    name: Marcin Radoszewski
+    bio: Programista od roku 2002. Pasjonują go nowe technologie i uwielbia uczyć sie nowych jezykow programowania oraz różnych paradygmatów programowania. Pracuje jako profesjonalny developer od ponad 4 lat. W wolnym czasie lubi pograć w gry komputerowe.
+    role: Mentor
+    city: Toruń
+
+michal.banasiak:
+    name: Michał Banasiak
+    bio: Programista.
+    role: Organizator
+    city: Wrocław
+
+pawel.lopusinski:
+    name: Paweł Łopusiński
+    bio: Mimo że zawsze staram się znaleźć prostsze i krótsze rozwiązania oraz uczyć się od najlepszych, to uważam, że z programowania powinno czerpać się dużo radości i zabawy! Nie tylko dlatego, że tworzymy nowe rzeczy i doświadczenia, ale również dlatego iż, w mojej opini, jest to bardzo zbliżone do rozwiązywania tajemnic i łamigłówek.
+    role: Mentor
+    city: Warszawa
+
+bartek.gorkowy:
+    name: Bartek Górkowy
+    bio: Android Developer, entuzjasta nowych technologii, fan produktów Google, Material Design oraz Open-source. Współtworzy aplikację Allegro dla systemu Android.
+    role: Mentor
+    city: Wrocław
+
+dmytro.dmytrenko:
+    name: Dmytro Dmytrenko
+    bio: Software Engineer with more than 5 years of commercial experience and Information Security Enthusiast. The main thing I am interested in is secure mobile applications development. I liked portable technology from the beginning and I am still a big fan of it now. We have a lot of fantastic smart gadgets which are waiting for the software commands to follow. Lets bring them interesting life!
+    role: Mentor
+    city: Kraków
+
+piotr.guzik:
+    name: Piotr Guzik
+    bio: Piotrek to programista języków JVM (Java, Scala, Groovy), lubiący czysty kod i ładne testy. Kiedyś o mało co, nie został prawnikiem, więc stara się wykorzystywać umiejętności miękkie w swojej codziennej pracy. Wierzy w ludzi i zawsze przed rozpocząciem projektu, bardziej interesuje go, z kim będzie pracował, niż, co będzie robił. Od pewnego czasu zafascynowany tematyką Big Data, również zawodowo.
+    role: Mentor
+    city: Warszawa
+
+mateusz.gajewski:
+    name: Mateusz Gajewski
+    bio: Pomimo posiadania ścisłego umysłu, Mateusz stara się odnajdywać piękno, prostę i harmonię w pracy ktorą wykonuje a także wierzy że najpotężniejsze są te najprostsze idee. W codziennej pracy łączy role architekta, programisty, mentora i badacza.
+    role: Mentor, Jury
+    city: Warszawa
+
+lukasz.stocki:
+    name: Łukasz Stocki
+    bio: Młody, zdolny chociaż nie zawsze poważny ;) Zawsze szukający sposobów aby nauczyć się czegoś nowego.
+    role: Mentor
+    city: Warszawa
+
+konrad.dziedzic:
+    name: Konrad Dziedzic
+    bio: Inżynier oprogramowania, preferujący technologie backend’owe, z ponad sześcioletnim stażem. Pasjonat nowych technologii nie dający się jednak łatwo porwać popularnym buzzword’om. Głównie interesujący się systemami rozproszonymi, problemami wynikającymi z ich natury i sposobami ich rozwiązania.
+    role: Mentor
+    city: Kraków
+
+jarek.palka:
+    name: Jarek Pałka
+    bio: Od ponad 15 lat w branży IT, jako administrator baz danych, programista, architekt, manager i „inżynier od spraw katastrof”. Brałem udział w małych, średnich i nonsensownie dużych projektach, prowadzonych zgodnie zasadami „waterfall”, Agile oraz przy braku jakichkolwiek metodyk, z tym samym zawsze skutkiem. Co doprowadziło mnie do wniosku, że nie ważne co robisz tak długo, jak robisz to dobrze, w najprostszy z możliwych sposobów i używasz właściwych narzędzi które wykonają pracę za ciebie. W międzyczasie dałem się porwać ideą TDD oraz Software Craftmanship, do granic możliwości wyeksploatować tak piękne w swej prostocie pomysły jak REST i NoSQL, by potem porzucić je by zgłębić tajniki „system thinking” i zachwycić się siłą jaką niesie z sobą „metafora” i odkryć, że rządzą nami te same prawa „natury”. Niepokorny wyznawca kościoła JVM (nie tylko Java), badacz bytecode'u i JIT oraz wszelkiej maści parserów, interpeterów i kompilatorów.  Od czasu do czasu można usłyszeć moje niskiej jakości żarty na temat architektury na konferencjach w Polsce, w chwilach wolnych naczelny rady programowej konferencji JDD i 4Developers.
+    role: Mentor
+    city: Poznań
+
+samuel.jarosinski:
+    name: Samuel Jarosiński
+    bio: Od pięciu lat tworzy aplikacje na Androida. Przede wszystkim specjalizuje się w tworzeniu i doskonaleniu interfejsu użytkownika. Próbuje się też samodzielnie kształcić na temat User Experience. Wielki fan Androida, Material Design, Google i całego jego ekosystemu (miał Gmaila gdy był jeszcze tylko na zaproszenia). Zafascynowany nauką, szczególnie kosmologią oraz kognitywistyką. Energooszczędny, wodoodporny i uprawia spanie długodystansowe. W wolnym czasie dalej koduje, ale czasami też pogra na gitarze lub poczyta jakąś naukową książkę.
+    role: Mentor
+    city: Poznań
+
+adam.tomczyk:
+    name: Adam Tomczyk
+    bio: Jestem product ownerem/managerem z nastawieniem na dostarczanie najwyższej jakości usług moim Klientom. Niezależnie od technologii, projektu, produktu robię wszystko co konieczne by rezultat spełniał ich oczekiwania. Uwielbiam zarówno tworzyć usługi od zera jak i tworzyć rozbudowane systemy klasy enterprise zdolne do obsługi w globalnym świecie. Pomimo braku formalnego autorytetu skutecznie zarządzam developerami, testerami, administratorami.
+    role: Mentor
+    city: Poznań
+
+bartlomiej.weglarz:
+    name: Bartłomiej Węglarz
+    bio: "Po ok 15 latach pracy spędzonych w branży IT pracując przy systemach typu e-commerce, cloud, big data przyznaję, że największą frajdę sprawia mi praca nad odpornymi na awarie, wysoko dostępnymi systemami rozproszonymi. Nie zawsze gonię za nowinkami technologicznymi, ale staram się trzymać zasady, którą wikipedia tłumaczy następująco: nie komplikuj, głuptasku"
+    role: Mentor
+    city: Kraków
+
+przemyslaw.libudzic:
+    name: Przemyslaw Libudzic
+    bio: Tester aplikacji na iOS/Androida/WP, śledzący z zapartym tchem wszelkie nowinki technologiczne.
+    role: Mentor
+    city: Warszawa
+
+lukasz.kuczborski:
+    name: Łukasz Kuczborski
+    bio: iOS Developer w Grupie Allegro. Założyciel i współorganizator Swift Warsaw. Gdy nie koduje prawdopodobnie robi ludziom zdjęcia.
+    role: Mentor
+    city: Warszawa
+
+piotr.wicherski:
+    name: Piotr Wicherski
+    bio: Tester aplikacji mobilnych z 7-letnim doświadczeniem na rynku mobile. Pasjonat mobilnych urządzeń i systemów oepracyjnych.
+    role: Mentor
+    city: Warszawa
+
+piotr.orlowski:
+    name: Piotr Orłowski
+    bio: Już w ubiegłym stuleciu uczestniczył w budowie polskiego Internetu pracując w Gazecie Wyborczej Online, od początku współtworzył też portal Gazeta.pl. W 2004 roku związał się z branżą e-commerce i zmieniał technologicznie merlin.pl i empik.com a aktualnie zmienia Allegro. Lubi rozwiązania proste i dające większe możliwości niż pierwotnie planowane.
+    role: Jury
+    city: Warszawa
+
+remigiusz.herba:
+    name: Remigiusz Herba
+    bio: Programista aplikacji iOS.
+    role: Mentor
+    city: Wrocław
+
+jedrzej.krysztofiak:
+    name: Jędrzej Krysztofiak
+    bio: Tester, początkujący developer i fanatyk bezpieczeństwa aplikacji webowych oraz mobilnych. Wiedzę na ten temat wykorzystuje i uzupełnia w Allegro od 3 lat. Hobbystycznie miłośnik programów bug bounty, fantastycznej książki i kolarstwa.
+    role: Mentor
+    city: Wrocław
+
+miroslaw.golda:
+    name: Mirosław Gołda
+    bio: Starszy inżynier oprogramowania. Od blisko 5 lat związany z Grupą Allegro, gdzie pracuje głównie po stronie backendu, tworząc rozmaite serwisy w Javie i Springu. Lubi też pokodować w JavaScripcie/ES6 i Angular.js, a w wolnych chwilach pograć w tryktraka (backgammona) oraz gry na Kinecta.
+    role: Mentor, Organizator
+    city: Toruń
+
+pawel.czubachowski:
+    name: Paweł Czubachowski
+    bio: Software engineer ze smykałką biznesową. W allegro od 4 lat. Po pracy przed komputerem zasiada w szarym kapeluszu. Fan motoryzacji, jeździ szybkim autem i głośnym motocyklem.
+    role: Mentor, Organizator
+    city: Toruń
+
+szymon.bilinski:
+    name: Szymon Biliński
+    bio: Product Owner, człowiek produktu. Pracuje z ludźmi i dla ludzi. Lubi, gdy z małej zmiany wychodzi duża rzecz. Aktywny uczestnik Internetów. Poza pracą znajdziesz mnie w parku, lesie, górach, nad morzem, z rodziną, wśród zieleni. Miłośnik natury - największego produktu na świecie.
+    role: Mentor
+    city: Toruń
+
+michal.matlosz:
+    name: Michał Matłosz
+    bio: Michał is self-motivated software engineer with work experience in many programming languages and frameworks. He enjoys taking on new challenges, and constantly strives to learn new skills.
+    role: Mentor, Organizator
+    city: Toruń
+
+dariusz.jedrzejczyk:
+    name: Dariusz Jędrzejczyk
+    bio: Pasjonat programowania usług tworzących platformę do budowania skalowalnych rozwiązań. Od 7 lat zmierza w kierunku backendu. Zetknął się z prawie wszystkimi platformami mobilnymi, konsultował rozwiązania Big Data w bankach, ale finalnie największą przyjemność sprawia mu pisanie czystego kodu w Javie i rozwiązywanie rzeczywistych problemów - stroniąc od używania technologii dla hecy.
+    role: Mentor
+    city: Kraków
+
+marcin.stepnowski:
+    name: Marcin Stepnowski
+    bio: Programista iOS, który jeszcze się nie nauczył, że niektórych rzeczy po prostu się nie da :)
+    role: Mentor
+    city: Warszawa 

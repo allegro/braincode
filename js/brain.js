@@ -34,20 +34,6 @@
                 place: "Wydział Matematyki, Informatyki i Mechaniki Uniwersytetu Warszawskiego",
                 street: " Stefana Banacha 2",
                 start: "18.03.2016 16:00"
-            },{
-                city: "wroclaw",
-                title: "BrainCode 2016 @ Wrocław",
-                position: new google.maps.LatLng(51.111871, 17.052480),
-                place: "Instytut Informatyki Uniwersytetu Wroclawskiego",
-                street: "Joliot-Curie 15",
-                start: "18.03.2016 16:00"
-            }, {
-                city: "krakow",
-                position: new google.maps.LatLng(50.068041, 19.912556),
-                title: "BrainCode 2016 @ Kraków",
-                place: "Katedra Informatyki AGH",
-                street: "Kawiory 21",
-                start: "18.03.2016 16:00"
             }];
             var cities = citiesInfo.map(function(city) {
                 var url = "http://maps.google.com/maps?ll=" + city.position.k + "," + city.position.D + "&z=14&t=m&hl=pl&gl=US&q=" + city.place;
