@@ -15,25 +15,25 @@
             var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
             var citiesInfo = [{
                 city: "poznan",
-                position: new google.maps.LatLng(52.467118, 16.927674),
-                title: "BrainCode 2016 @ Poznań",
-                place: "Wydział Matematyki i Informatyki Uniwersytetu Adama Mickiewicza",
-                street: "Umultowska 87",
-                start: "18.03.2016 16:00"
+                position: new google.maps.LatLng(52.3915253,16.8557257),
+                title: "BrainCode 2017 @ Poznań",
+                place: "Pixel",
+                street: "ul. Grunwaldzka 182",
+                start: "24.03.2017 18:00"
             }, {
                 city: "torun",
-                position: new google.maps.LatLng(53.010038, 18.594946),
-                title: "BrainCode 2016 @ Toruń",
-                place: "Wydział Matematyki i Informatyki Uniwersytetu Mikołaja Kopernika",
-                street: "Chopina 12/18",
-                start: "18.03.2016 16:00"
+                position: new google.maps.LatLng(53.0250238,18.6235562),
+                title: "BrainCode 2017 @ Toruń",
+                place: "Kościuszko Point",
+                street: "Kościuszki 71",
+                start: "24.03.2017 18:00"
             }, {
                 city: "warszawa",
-                title: "BrainCode 2016 @ Warszawa",
-                position: new google.maps.LatLng(52.211674, 20.981500),
-                place: "Wydział Matematyki, Informatyki i Mechaniki Uniwersytetu Warszawskiego",
-                street: " Stefana Banacha 2",
-                start: "18.03.2016 16:00"
+                title: "BrainCode 2017 @ Warszawa",
+                position: new google.maps.LatLng(52.2356231,20.9958813,17),
+                place: "Q22",
+                street: "Al Jana Pawła II 22",
+                start: "24.03.2017 18:00"
             }];
             var cities = citiesInfo.map(function(city) {
                 var url = "http://maps.google.com/maps?ll=" + city.position.k + "," + city.position.D + "&z=14&t=m&hl=pl&gl=US&q=" + city.place;
