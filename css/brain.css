@@ -147,6 +147,19 @@ section p {
     text-align: center;
 }
 
+.summer-experience {
+    background: #fff;
+    color: #333;
+    overflow: hidden;
+}
+
+.summer-experience img{
+    float: left;
+    margin: 0 3rem 3rem 0;
+    width: 220px;
+}
+
+
 .gallery img {
     display: inline-block;
     max-width: 445px;

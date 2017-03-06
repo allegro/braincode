@@ -6,6 +6,11 @@ baseurl: ""
 url: "http://allegro.tech/braincode"
 twitter_username: AllegroTechBlog
 github_username:  allegro
+facebook_username: allegro.tech
+google_plus_id: +AllegroTechBlog
+meetup_username: allegrotech
+slideshare_username: allegrotech
+youtube_username: UC66wC6RBjFk6CuVz7wdjJ5g
 
 # Build settings
 markdown: redcarpet
