@@ -225,6 +225,11 @@ section p {
 }
 
 .support {
+    background: #fff;
+    color: #333;
+}
+
+.previous{
     background: #eee;
     color: #333;
 }
@@ -244,7 +249,7 @@ section p {
 .support img {
     max-width: 80%;
     margin: 10px;
-    max-height: 150px;
+    max-height: 80px;
 }
 
 footer {
@@ -293,7 +298,7 @@ footer .content {
 }
 
 .people {
-    background: #fff;
+    background: #eee;
 }
 
 .people h2 {
