@@ -6,9 +6,15 @@ ewa.ogrodowska:
 
 joanna.antkowiak:
     name: Joanna Antkowiak
-    bio: Od sześciu lat związana z Grupą Allegro obecnie członek zespołu zajmującego się organizacją eventów dla środowiska IT oraz employer brandingiem. 
+    bio: Od sześciu lat związana z Grupą Allegro obecnie członek zespołu zajmującego się organizacją eventów dla środowiska IT oraz employer brandingiem.
     role: Organizator
     city: Poznań
+
+jan.pietka:
+    name: Janek Piętka
+    bio:  Odpowiedzialny za promowanie marki mellegro Tech
+    role: Organizator
+    city: Warszawa
 
 adam.dubiel:
     name: Adam Dubiel
@@ -18,12 +24,132 @@ adam.dubiel:
 
 dorota.leszczynska:
     name: Dorota Leszczyńska
-    bio: Webdeveloper. Od prawie trzech lat dba o frontend serwisów Grupy Allegro. Pisze głównie w Angularze, od niedawna zagłębia się w tajniki Reacta i ES6. Uważa, że każda zmiana powinna być przyjazna dla użytkownika i wyglądać dobrze w każdej rozdzielczości.     Po pracy uwalnia endorfiny na treningach zumby.
-    role: Organizator
+    bio:  Front-End Software Engineer. Od prawie czterech lat dba o frontend serwisów Grupy Allegro. W swojej pracy korzysta m.in. z Angulara, NodeJS, VanillaJS. Uważa, że każda zmiana powinna być przyjazna dla użytkownika i wyglądać dobrze w każdej rozdzielczości.
+    role: Organizator/Mentor
     city: Toruń
 
-jan.pietka:
-    name: Janek Piętka
-    bio:  Odpowiedzialny za promowanie marki allegro Tech
-    role: Organizator
+bartosz.walacik:
+    name: Bartosz Walacik
+    bio: Developer i team lead. Doświadczony backendowiec z ambicjami na fullstack. Stara się pisać czytelny kod z dobrymi testami. Po godzinach utopiony w open source’owy projekt http://javers.org oraz w redagowanie postów na http://allegro.tech
+    role: Mentor
     city: Warszawa
+
+jakub.kaczmarski:
+    name: Jakub Kaczmarski
+    bio: Kierownik :) Kiedyś developer i certyfikowany administrator baz danych. W IT od 16 lat, odpowiada w Allegro za finanse i logistykę.
+    role: Jury
+    city: Warszawa
+
+miroslaw.golda:
+    name: Mirosław Gołda
+    bio: Starszy inżynier oprogramowania. Od blisko 6 lat związany z Grupą Allegro, gdzie pracuje przy tworzeniu serwisów w Javie i Springu oraz aplikacjach frontendowych w JavaScripcie/ES6 i Angular.js.
+    role: Organizator/Mentor
+    city: Toruń
+
+lukasz.stocki:
+    name: Łukasz Stocki
+    bio:  Młody, zdolny chociaż nie zawsze poważny ;) Zawsze szukający sposobów aby nauczyć się czegoś nowego.
+    role: Mentor
+    city: Warszawa
+
+michal.karykowski:
+    name: Michał Karykowski
+    bio: Programista backendowy z ciągotami do roboty devopsowej. Stara się dbać o lokalną społeczność IT wspomagając organizację lokalnych spotkań MeetIT.
+    role: mentor
+    city: Toruń
+
+pawel.czubachowski:
+    name: Paweł Czubachowski
+    bio: "Określenie, które mnie najlepiej opisuje to: Trust me I'm an engineer :) Motoryzacja, a w szczególności motorsport to moje drugie życie. W pracy jestem inżynierem oprogramowania w dziale bezpieczeństwa."
+    role: Mentor
+    city: Toruń
+
+lukasz.kuczborski:
+    name: Łukasz Kuczborski
+    bio: Założyciel i współorganizator @SwiftWarsaw | iOS Developer w grupie Allegro | Kiedy nie koduje, prawdopodobnie fotografuje ludzi.
+    role: Mentor
+    city: Warszawa
+
+marcin.jasinski:
+    name: Marcin Jasiński
+    bio: Programista od zawsze. Fan czystego kodu. Inżynier oprogramowania. Najważniejsza jest dla niego architektura. Entuzjasta Spring Boota. Lubi testować, ale tylko w Spocku. Linux to jego środowisko naturalne. Prywatnie wielki fan serialu "Przyjaciele".
+    role: Mentor
+    city: Toruń
+
+mateusz.stepniak:
+    name: Mateusz Stępniak
+    bio:  Działa w świecie backend'owym w technologiach java i nodejs z nastawieniem na dostarczanie usług dla klientów mobilnych.
+    role: Mentor
+    city: Poznań
+
+lukasz.roslonek:
+    name: Łukasz Rosłonek
+    bio: Starszy inżynier testów. W pracy codziennej skupiam się na automatyzacji testów, pamiętając że nie kończy się ona na testach przeglądarkowych. Jestem fanem lekkich, zwinnych metodyk projektowych i nowoczesnej, rozproszonej architektury systemowej. Twórca bloga www.testdetective.com
+    role: Mentor
+    city: Warszawa
+
+adam.medzinski:
+    name: Adam Medziński
+    bio: Inżynier oprogramowania pracujący w Allegro od ponad 4 lat. Obecnie zajmuje się uruchamianiem mikrousług w kontenerach na Allegro App Engine - wewnętrznej platformie firmy zbudowanej na bazie Apache Mesos i Marathon. Prywatnie miłośnik piwa i podróży.
+    role: Mentor
+    city: Warszawa
+
+szymon.przybylski:
+    name: Szymon Przybylski
+    bio:  Developer, fanatyk JavaScriptu i pracy Dana Abramova, od kilku lat pogrążony w świecie Reacta i Reduxa, prywatnie introwertyczny troll i kolarz amator.
+    role: Mentor
+    city: Poznań
+
+oskar.adaszak:
+    name: Oskar Adaszak
+    bio:  Inżynier oprogramowania. W Allegro od 2 lat. W pracy zajmuję się tworzeniem serwisów w Javie oraz aplikacji frontendowych w JavaScripcie. Prywatnie miłośnik motoryzacji.
+    role: Mentor
+    city: Toruń
+
+lukasz.szymiec:
+    name: Łukasz Szymiec
+    bio:  Projektant interfejsu, pasjonat technologii i designu. Doświadczenie z projektowania UI/UX zdobywał tworząc aplikacje dla sektora digital signage. W Grupie Allegro odpowiada za wizualne aspekty nowego interfejsu - Metrum.
+    role: Mentor
+    city: Poznań
+
+adam.tomczyk:
+    name: Adam Tomczyk
+    bio:  Pasjonat mobilnych technologii i upraszczania otaczającego świata. W Allegro odpowiadam za rozwój systemów back-office.
+    role: Mentor
+    city: Poznań
+
+marek.nowicki:
+    name: Marek Nowicki
+    bio: Asystent w Zakładzie Obliczeń Równoległych i Rozproszonych UMK, lider toruńskiego JUGa. Programista-naukowiec związany z językiem Java, zajmujący się głównie obliczeniami równoległymi w środowisku wielowęzłowym w tymże języku. Autor biblioteki PCJ.
+    role: Jury
+    city: Toruń
+
+michal.matlosz:
+    name: Michał Matłosz
+    bio: Inżynier oprogramowania w Grupie Allegro, z firmą związany od ponad 8 lat. Miłośnik nowych technologii i języków programowania. Wolny czas lubi spędzać w gronie bliskich i przyjaciół.
+    role: Mentor
+    city: Toruń
+
+jakub.westfalewski:
+    name: Jakub Westfalewski
+    bio: Team Leader, programista z zamiłowaniem do dużej ilości kawy. 5 lat w Allegro, uwielbia zabawę z JVM i JS a ponadto miłośnik tematyki CI/CD.
+    role: Jury
+    city: Toruń
+
+hubert.jagodzinski:
+    name: Hubert Jagodziński
+    bio: Inżynier oprogramowania związany z Allegro on ponad 6 lat. Rozpoczynający swoją pracę jako programista C rozwiązań backendowych dla środowiska GNU/Linux. Obecnie tworzący aplikacje webowe end to end.
+    role: Mentor
+    city: Poznań
+
+marcin.radoszewski:
+    name: Marcin Radoszewski
+    bio: Pasjonat nowych technologii, nauki języków programowania oraz różnych paradygmatów programowania. Pracuje jako profesjonalny developer od ponad 4 lat. W wolnym czasie lubi pograć na gitarze lub w gry komputerowe.
+    role: Mentor
+    city: Toruń
+
+mariusz.wojtysiak:
+    name: Mariusz Wojtysiak
+    bio: Deweloper tworzący usługi REST wykorzystywane przez aplikacje mobilne. Wykłada na UAM przedmiot "Projektowanie i implementacja REST API". Chętnie pomoże skonsumować API Allegro.
+    role: Mentor
+    city: Poznań
