@@ -159,3 +159,14 @@ mariusz.lisiecki:
     bio: Doświadczony programista iOS - rozpoczął swoją przygodę z technologiami Apple w 2009. Od 2014 lider sekcji deweloperskiej iOS. Interesuje się technologiami mobilnymi, które zmieniają otaczającą nas rzeczywistość. Uwielbia poznawać nowe narzędzia i technologia. Chętnie dzieli się wiedzą - albo na konferencjach lub na prowadzonych przez niego szkoleniach.
     role: Mentor
     city: Poznań
+przemyslaw.libudzic:
+    name: Przemysław Libudzic
+    bio:  Tester aplikacji na iOS/Android/W10M, śledzący z zapartym tchem wszelkie nowinki technologiczne.
+    role: Mentor
+    city: Warszawa
+
+kamil.zielonka:
+    name: Kamil Zielonka
+    bio: Starszy Inżynier Oprogramowania / Team Leader w Grupie Allegro, z firmą związany od 3 lat. Na codzień programuje w językach uruchamianych na JVM i odpowiada za narzędzia wspierające pracę developerów. W wolnym czas lubi biegać i oglądać seriale.
+    role: Mentor
+    city: Poznań
