@@ -136,12 +136,6 @@ jakub.westfalewski:
     role: Jury
     city: Toruń
 
-hubert.jagodzinski:
-    name: Hubert Jagodziński
-    bio: Inżynier oprogramowania związany z Allegro on ponad 6 lat. Rozpoczynający swoją pracę jako programista C rozwiązań backendowych dla środowiska GNU/Linux. Obecnie tworzący aplikacje webowe end to end.
-    role: Mentor
-    city: Poznań
-
 marcin.radoszewski:
     name: Marcin Radoszewski
     bio: Pasjonat nowych technologii, nauki języków programowania oraz różnych paradygmatów programowania. Pracuje jako profesjonalny developer od ponad 4 lat. W wolnym czasie lubi pograć na gitarze lub w gry komputerowe.
@@ -170,3 +164,51 @@ kamil.zielonka:
     bio: Starszy Inżynier Oprogramowania / Team Leader w Grupie Allegro, z firmą związany od 3 lat. Na codzień programuje w językach uruchamianych na JVM i odpowiada za narzędzia wspierające pracę developerów. W wolnym czas lubi biegać i oglądać seriale.
     role: Mentor
     city: Poznań
+
+jacek.salacki:
+    name: Jacek Sałacki
+    bio: product owner, w Allegro od pół roku, wcześniej architekt rozwiązań, analityk systemowy, programista; w Allegro zajmuje się narzędziami finansowymi, lubi tworzenie nowych rozwiązań i funkcjonalności przydatnych użytkownikom
+    role: Mentor
+    city: Warszawa
+
+tomasz.pilka:
+    name: Tomasz Piłka
+    bio: Tomasz Piłka pracuje na Wydziale Matematyki i Informatyki UAM w Poznaniu, gdzie zarządza Laboratorium Wsparcia i Rozwoju Aplikacji. Jest entuzjastą nowych technologii, popularyzuje matematykę, informatykę oraz przedsiębiorczość.
+    role: Jury
+    city: Poznań
+
+pawel.mendelski:
+    name: Paweł Mendelski
+    bio: Pasjonat, starszy programista, fullstack developer. Ponad podziały technologiczne i aktualne trendy przedkłada proste rozwiązania i działający produkt.
+    role: Jury
+    city: Poznań
+
+darek.knopinski:
+    name: Darek Knopiński
+    bio:
+    role: Jury
+    city: Poznań
+
+artur.stepniewski:
+    name: Artur Stępniewski
+    bio: Artur jest programistą Android w Allegro. Ciągle poszukuje sposobów na poprawę jakości kodu i uniknięcie wykonywania powtarzalnych zadań. Pasjonuje się sportami motorowymi oraz snookerem.
+    role: Mentor
+    city: Warszawa
+
+hubert.jagodzinski:
+    name: Hubert Jagodziński
+    bio: Inżynier oprogramowania związany z Allegro od ponad 6 lat. Rozpoczynający swoją pracę jako programista C rozwiązań backendowych dla środowiska GNU/Linux. Obecnie tworzący aplikacje webowe end to end.
+    role: Mentor
+    city: Poznań
+
+piotr.wicherski:
+    name: Piotr Wicherski
+    bio: Starszy inżynier testów oprogramowania z ponad 8-letnim doświadczeniem na rynku technologii mobilnym. Organizator konferencji TestWarez i meetupu WarszawQA.
+    role: Mentor
+    City: Warszawa
+
+leopold.wegner:
+    name: Leopold Wegner
+    bio: Team leader. Związany z branżą IT od 13 lat, w Allegro odpowiedzialny za rozwój i utrzymanie aplikacji mobilnych na platformie iOS.
+    role: Jury
+    city: Warszawa
