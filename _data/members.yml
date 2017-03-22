@@ -185,7 +185,7 @@ pawel.mendelski:
 
 darek.knopinski:
     name: Darek Knopiński
-    bio:
+    bio: "Product Development Manager. Pasjonat budowania produktów. Przez kilka lat rozwijał funkcjonalności dla sprzedawców, od roku buduje appki Allegro i rozwija mobilne doświadczenie zakupowe. Wielki fan Apple'a."
     role: Jury
     city: Poznań
 
@@ -210,5 +210,11 @@ piotr.wicherski:
 leopold.wegner:
     name: Leopold Wegner
     bio: Team leader. Związany z branżą IT od 13 lat, w Allegro odpowiedzialny za rozwój i utrzymanie aplikacji mobilnych na platformie iOS.
+    role: Jury
+    city: Warszawa
+
+pawel.hnydka:
+    name: Paweł Hnydka
+    bio: "Senior product manager; od ~10 lat w Produkcie; doświadczenie zbierane u globalnych graczy ecommerce/płatności, w lokalnym banku i przy próbach współtworzenia startupów; od 3 lat w allegro, od roku zajmuje się apką zakupową na androida; szczyt umiejętności developerskich to napisanie prostego webscrapera w php4 (strukturalnie, pełen monolit, wszystko w 1 pliku, zero testów ;p)"
     role: Jury
     city: Warszawa
