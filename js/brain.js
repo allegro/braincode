@@ -88,6 +88,7 @@
             });
         }
         google.maps.event.addDomListener(window, 'load', initialize);
+
         var peopleList = document.querySelector('.people-list');
         var peopleNode = [].slice.call(document.querySelectorAll('.people-list-item'));
         var rememberCity = function(city) {
@@ -128,8 +129,9 @@
             rememberCity(city);
         };
         var peopleInit = function() {
+            var cities = ["Poznań", "Warszawa", "Toruń"];
             var city = getCity();
-            if (city !== '') {
+            if (city !== '' && cities.indexOf(city) > -1) {
                 showPeopleFromCity(city);
                 document.querySelector('input[value=' + city + ']').checked = true;
             }
