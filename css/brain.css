@@ -137,7 +137,8 @@ section p {
     font-size: 1.8rem;
 }
 
-.about {
+.about,
+.register {
     box-shadow: -1px 0 10px #111;
     background: #000;
     color: #fff;
@@ -161,6 +162,10 @@ section p {
     float: left;
     margin: 0 3rem 3rem 0;
     width: 220px;
+}
+
+img {
+    max-width: 100%;
 }
 
 .gallery img {
@@ -510,11 +515,16 @@ footer .content {
 }
 
 .faq dt {
-    font-weight: 900
+    font-weight: 900;
+    cursor: pointer;
 }
 
 .faq dd {
     margin: 1rem 2rem 0;
+    overflow: hidden;
+    transition: 0.6s;
+    border-left: 5px solid #ccc;
+    padding: 0 0 0 1rem;
 }
 
 .faq dt::before {
