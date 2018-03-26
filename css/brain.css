@@ -8,14 +8,14 @@ html {
     }
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
-    background: #f47920 linear-gradient(#f8c217, #f47920) repeat-x fixed -50% 0;
+    background: #1b6b23;
 }
 
 body {
-
     font: 2rem/1.5 "Open Sans", arial, sans-serif;
     color: #fff;
 }
@@ -70,7 +70,9 @@ header {
     text-align: center;
     line-height: 1.2;
     padding-bottom: 2rem;
-    background: url("../img/dots.png");
+    background-image: url("../img/dots.png"), linear-gradient(#96989b, #1d1d1b 50%);
+    background-attachment: scroll, fixed;
+    background-repeat: repeat-x, no-repeat;
 }
 
 header img {
@@ -79,7 +81,8 @@ header img {
     max-width: 400px;
 }
 
-header h1, header p {
+header h1,
+header p {
     margin: 2rem 0;
     padding: 0
 }
@@ -100,18 +103,18 @@ header p {
 
 .button {
     display: inline-block;
-    border: 1px solid rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 1);
     padding: 1rem;
     margin: 1rem 0;
     text-decoration: none;
     color: #fff;
     background: rgba(5, 5, 5, 0.28);
-    border-radius: 5px;
+    /* border-radius: 5px; */
     transition: 0.6s;
 }
 
 .button:hover {
-    background: rgba(5, 5, 5, 0.58);
+    background: radial-gradient(#000, #555)
 }
 
 iframe {
@@ -136,11 +139,12 @@ section p {
 
 .about {
     box-shadow: -1px 0 10px #111;
-    background: #b65611;
-    color: #eee;
+    background: #000;
+    color: #fff;
 }
+
 .faq {
-    color: #222;
+    color: #fff;
 }
 
 .gallery {
@@ -153,20 +157,18 @@ section p {
     overflow: hidden;
 }
 
-.summer-experience img{
+.summer-experience img {
     float: left;
     margin: 0 3rem 3rem 0;
     width: 220px;
 }
-
 
 .gallery img {
     display: inline-block;
     max-width: 445px;
     width: 94%;
     margin: 1rem 1rem 1rem 0;
-    border-radius: 1rem;
-    border: 1rem solid rgba(0, 0, 0, 0.27);
+    border: 1rem solid rgba(255, 255, 255, 0.15);
 }
 
 .lead p {
@@ -179,8 +181,44 @@ section p {
     color: #333;
 }
 
+.where ul {
+    list-style: none;
+    display: flex;
+}
+
+.where li {
+    flex: 1;
+    box-shadow: 1px 1px 3px#ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.where li img {
+    display: block;
+    margin: 10px auto;
+}
+
 .previous {
     background: rgba(0, 0, 0, 0.5);
+}
+
+.previous ul {
+    padding: 0;
+}
+
+.previous li {
+    list-style: none;
+    display: inline-block;
+}
+
+.previous li::after {
+    content: ', ';
+}
+
+.previous li:last-child:after {
+    content: '';
 }
 
 #map-canvas {
@@ -196,7 +234,7 @@ section p {
     cursor: pointer;
     padding: 0 5px;
     margin: 1px 0;
-    border-radius: 3px;
+    /* border-radius: 3px; */
 }
 
 .cities span:hover {
@@ -229,7 +267,7 @@ section p {
     color: #333;
 }
 
-.previous{
+.previous {
     background: #eee;
     color: #333;
 }
@@ -262,14 +300,17 @@ footer .content {
     font-size: 1.6rem;
 }
 
+
 /* social */
+
 .social {
     /* text-align: right;
-    */
+*/
     display: inline-block;
 }
 
-.social ul, .social h4 {
+.social ul,
+.social h4 {
     list-style: none;
     display: inline-block;
     font-size: 90%;
@@ -309,7 +350,8 @@ footer .content {
     overflow: hidden;
 }
 
-.people-list, .people-list-item {
+.people-list,
+.people-list-item {
     padding: 0;
     margin: 0;
 }
@@ -439,7 +481,7 @@ footer .content {
     left: -9999px;
 }
 
-.city-list input + label {
+.city-list input+label {
     background: #eee;
     color: #333;
     border-radius: 5px;
@@ -447,12 +489,12 @@ footer .content {
     cursor: pointer;
 }
 
-.city-list input:checked + label {
+.city-list input:checked+label {
     background: #920;
     color: #fff;
 }
 
-.city-list input:checked + label:before {
+.city-list input:checked+label:before {
     content: '✔ ';
     color: #090;
 }
@@ -483,6 +525,7 @@ footer .content {
 .inspirations {
     background: rgba(0, 0, 0, 0.5)
 }
+
 
 /*== navigation */
 
@@ -521,7 +564,6 @@ nav li {
 nav ul {
     padding: 0 1rem;
     margin: 1rem 0;
-
 }
 
 @media all and (min-width: 699px) {
@@ -536,13 +578,13 @@ nav li a {
     font-size: 80%;
     padding: 5px 10px;
     display: inline-block;
-    background: rgba(0, 0, 0, 0.48);
-    border-radius: 5px;
+    background: radial-gradient(#1b6b23, #01a224);
+    /* border-radius: 5px; */
     text-align: center;
 }
 
 nav li a:hover {
-    background: #333
+    background: #1b6b23
 }
 
 .winners {
@@ -593,4 +635,24 @@ a {
 video {
     max-width: 100%;
     width: 100%;
+}
+
+.i-wrapper {
+    max-width: 100%;
+    clear: both;
+}
+
+.i-wrapper div {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.i-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

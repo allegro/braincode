@@ -15,14 +15,14 @@
             var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
             var citiesInfo = [{
                 city: "poznan",
-                position: new google.maps.LatLng(52.3915253,16.8557257),
+                position: new google.maps.LatLng(52.3915253, 16.8557257),
                 title: "BrainCode 2017 @ Poznań",
                 place: "Pixel",
                 street: "ul. Grunwaldzka 182",
                 start: "24.03.2017 18:00"
             }, {
                 city: "torun",
-                position: new google.maps.LatLng(53.0250238,18.6235562),
+                position: new google.maps.LatLng(53.0250238, 18.6235562),
                 title: "BrainCode 2017 @ Toruń",
                 place: "Kościuszko Point",
                 street: "Kościuszki 71",
@@ -30,7 +30,7 @@
             }, {
                 city: "warszawa",
                 title: "BrainCode 2017 @ Warszawa",
-                position: new google.maps.LatLng(52.2356231,20.9958813,17),
+                position: new google.maps.LatLng(52.2356231, 20.9958813, 17),
                 place: "Q22",
                 street: "Al Jana Pawła II 22",
                 start: "24.03.2017 18:00"
@@ -80,12 +80,14 @@
                 });
             });
             document.getElementById('cities').addEventListener('click', function(e) {
+
                 var el = e.target;
-                if (el.tagName === 'SPAN') {
-                    var city = el.getAttribute('data-city');
+                console.log(el.tagName);
+                if (el.tagName === 'LI' || el.tagName === 'IMG') {
+                    var city = el.getAttribute('data-city') || el.parentNode.getAttribute('data-city');
                     centerOnCity(city);
                 }
-            });
+            }, true);
         }
         google.maps.event.addDomListener(window, 'load', initialize);
 
@@ -148,7 +150,7 @@
                 }
             });
         };
-        peopleInit();
+        // peopleInit();
         smoothScroll.init({
             speed: 500,
             easing: 'easeInOutCubic',
