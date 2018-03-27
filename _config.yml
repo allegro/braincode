@@ -12,11 +12,6 @@ meetup_username: allegrotech
 slideshare_username: allegrotech
 youtube_username: UC66wC6RBjFk6CuVz7wdjJ5g
 
-# Build settings
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
-
 kramdown:
     input: GFM
     coderay_line_numbers: nil
