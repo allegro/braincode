@@ -16,24 +16,24 @@
             var citiesInfo = [{
                 city: "poznan",
                 position: new google.maps.LatLng(52.3915253, 16.8557257),
-                title: "BrainCode 2017 @ Poznań",
+                title: "BrainCode 2018 @ Poznań",
                 place: "Pixel",
                 street: "ul. Grunwaldzka 182",
-                start: "24.03.2017 18:00"
+                start: "20.04.2087 17:00"
             }, {
                 city: "torun",
                 position: new google.maps.LatLng(53.0250238, 18.6235562),
-                title: "BrainCode 2017 @ Toruń",
+                title: "BrainCode 2018 @ Toruń",
                 place: "Kościuszko Point",
                 street: "Kościuszki 71",
-                start: "24.03.2017 18:00"
+                start: "20.04.2087 17:00"
             }, {
                 city: "warszawa",
-                title: "BrainCode 2017 @ Warszawa",
+                title: "BrainCode 2018 @ Warszawa",
                 position: new google.maps.LatLng(52.2356231, 20.9958813, 17),
                 place: "Q22",
                 street: "Al Jana Pawła II 22",
-                start: "24.03.2017 18:00"
+                start: "20.04.2087 17:00"
             }];
             var cities = citiesInfo.map(function(city) {
                 var url = "http://maps.google.com/maps?ll=" + city.position.k + "," + city.position.D + "&z=14&t=m&hl=pl&gl=US&q=" + city.place;
