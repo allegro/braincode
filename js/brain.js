@@ -19,21 +19,21 @@
                 title: "BrainCode 2018 @ Poznań",
                 place: "Pixel",
                 street: "ul. Grunwaldzka 182",
-                start: "20.04.2087 17:00"
+                start: "12.04.2019 17:30"
             }, {
                 city: "torun",
                 position: new google.maps.LatLng(53.0250238, 18.6235562),
                 title: "BrainCode 2018 @ Toruń",
                 place: "Kościuszko Point",
                 street: "Kościuszki 71",
-                start: "20.04.2087 17:00"
+                start: "12.04.2019 17:30"
             }, {
                 city: "warszawa",
                 title: "BrainCode 2018 @ Warszawa",
                 position: new google.maps.LatLng(52.2356231, 20.9958813, 17),
                 place: "Q22",
                 street: "Al Jana Pawła II 22",
-                start: "20.04.2087 17:00"
+                start: "12.04.2019 17:30"
             }];
             var cities = citiesInfo.map(function(city) {
                 var url = "http://maps.google.com/maps?ll=" + city.position.k + "," + city.position.D + "&z=14&t=m&hl=pl&gl=US&q=" + city.place;
@@ -82,7 +82,6 @@
             document.getElementById('cities').addEventListener('click', function(e) {
 
                 var el = e.target;
-                console.log(el.tagName);
                 if (el.tagName === 'LI' || el.tagName === 'IMG') {
                     var city = el.getAttribute('data-city') || el.parentNode.getAttribute('data-city');
                     centerOnCity(city);
@@ -101,34 +100,6 @@
         };
         var getCity = function() {
             return localStorage.city ? localStorage.city : '';
-        };
-        var showPeopleContainer = function(arr, index) {
-            if (index === arr.length - 1) {
-                setTimeout(function() {
-                    peopleList.classList.remove('hide');
-                }, 400);
-            }
-        };
-        var showAllPeople = function(city) {
-            peopleList.classList.add('hide');
-            peopleNode.forEach(function(item, index, arr) {
-                item.classList.remove('remove');
-                showPeopleContainer(arr, index);
-            });
-            forgetCity();
-        };
-        var showPeopleFromCity = function(city) {
-            peopleList.classList.add('hide');
-            peopleNode.forEach(function(item, index, arr) {
-                var itemMeta = item.getAttribute('data-meta').split(',');
-                if (itemMeta[itemMeta.length - 1] === city) {
-                    item.classList.remove('remove');
-                } else {
-                    item.classList.add('remove');
-                }
-                showPeopleContainer(arr, index);
-            });
-            rememberCity(city);
         };
 
         var faqInit = function() {
@@ -154,36 +125,5 @@
 
         }
 
-        var peopleInit = function() {
-            var cities = ["Poznań", "Warszawa", "Toruń"];
-            var city = getCity();
-            if (city !== '' && cities.indexOf(city) > -1) {
-                showPeopleFromCity(city);
-                document.querySelector('input[value=' + city + ']').checked = true;
-            }
-
-            document.getElementById('city-list').addEventListener('change', function(e) {
-                var el = e.target;
-                if (el.tagName === 'INPUT') {
-                    var city = el.value;
-                    if (city !== '') {
-                        showPeopleFromCity(city);
-                    } else {
-                        showAllPeople();
-                    }
-                }
-            });
-        };
-        // peopleInit();
         faqInit();
-        smoothScroll.init({
-            speed: 500,
-            easing: 'easeInOutCubic',
-            callbackBefore: function() {
-                document.body.style.backgroundAttachment = 'scroll';
-            },
-            callbackAfter: function() {
-                document.body.style.backgroundAttachment = 'fixed';
-            }
-        });
     })();

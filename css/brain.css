@@ -1,7 +1,10 @@
 html {
     font-size: 50%;
 }
-
+h2, h3{
+    margin: 0;
+    padding: 0 0 1rem 0;
+}
 @media all and (min-width: 990px) {
     html {
         font-size: 62.5%;
@@ -98,23 +101,23 @@ header p {
 .content {
     max-width: 960px;
     margin: 0 auto;
-    padding: 1rem 1rem 2rem;
+    padding: 3rem 1rem;
 }
 
 .button {
     display: inline-block;
-    border: 1px solid rgba(255, 255, 255, 1);
-    padding: 1rem;
+    border-radius: 5px;
+    font-size: 90%;
+    padding: 1rem 2rem;
     margin: 1rem 0;
     text-decoration: none;
     color: #fff;
-    background: rgba(5, 5, 5, 0.28);
-    /* border-radius: 5px; */
-    transition: 0.6s;
+    background: #ff5722;
+    transition: 0.6s cubic-bezier(.68,-0.55,.27,1.55)
 }
 
 .button:hover {
-    background: radial-gradient(#000, #555)
+    background: #e64a19;
 }
 
 iframe {
@@ -156,6 +159,11 @@ section p {
     background: #fff;
     color: #333;
     overflow: hidden;
+}
+
+.perks {
+    background: #e3f6f8;
+    color: #333;
 }
 
 .summer-experience img {
