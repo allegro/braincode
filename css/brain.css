@@ -13,6 +13,7 @@ body {
     margin: 0;
     padding: 0;
     background:  #003e64;
+    scroll-behavior: smooth;
 }
 
 body {
