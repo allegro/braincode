@@ -103,22 +103,13 @@
         };
 
         var faqInit = function() {
-            var questions = document.querySelectorAll('#faq dt');
 
-            var hideAll = function() {
-                var desc = document.querySelectorAll('#faq dd');
-                desc.forEach(function(item) {
-                    item.style.maxHeight = 0;
-                })
-            }
-
-            hideAll();
             document.querySelector('#faq dl').addEventListener('click', function(e) {
 
                 if (e.target.tagName === 'DT') {
                     var el = e.target.nextSibling.nextSibling;
                     if (el.tagName == 'DD') {
-                        el.style.maxHeight = '300px';
+                        el.classList.toggle('show-item')
                     }
                 }
             })
