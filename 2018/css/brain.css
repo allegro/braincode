@@ -12,7 +12,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background:  #003e64;
+    background: #1b6b23;
 }
 
 body {
@@ -70,7 +70,7 @@ header {
     text-align: center;
     line-height: 1.2;
     padding-bottom: 2rem;
-    background-image: url("../img/dots.png"), linear-gradient(#00598e, #003e64 50%);
+    background-image: url("../img/dots.png"), linear-gradient(#96989b, #1d1d1b 50%);
     background-repeat: repeat-x, no-repeat;
 }
 
@@ -139,7 +139,7 @@ section p {
 .about,
 .register {
     box-shadow: -1px 0 10px #111;
-    background: #01273e;
+    background: #000;
     color: #fff;
 }
 
@@ -588,13 +588,13 @@ nav li a {
     font-size: 80%;
     padding: 5px 10px;
     display: inline-block;
-    background:linear-gradient(#00598e, #003e64 50%);
+    background: radial-gradient(#1b6b23, #01a224);
     /* border-radius: 5px; */
     text-align: center;
 }
 
 nav li a:hover {
-    background: #01273e;
+    background: #1b6b23
 }
 
 .winners {
